@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about Us</title>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/font-awesome.min.css">
+    <link rel="stylesheet" href="about.css">
+</head>
+<body id = "main">
+
+    <div class="search-box"> <!--Search box creation-->
+        <input type="text" placeholder="Search...">
+    </div>
+
+
+    <div class="warper">
+        <div class="logo">
+            <a class="nav-btn-logo" href="../index.html">
+                <img class="logo-btn" src="imagenes/logo-ico3.png" alt="">
+                
+            </a>
+        </div>
+    </div>
+    <div id ="button-box"></div>
+  
+    <div class="nav-container">
+            
+        <a id = "homebtn" href="../index.html" onmouseover= "onmouseoverhomebtn()" onmouseout="onmouseexithomebtn()">Home</a>
+  
+        <a id = "web-btn" href="../web-part/web.html" onmouseover= "onmouseoverservicetbtn()" onmouseout="onmouseexitwebbtn()">Services</a>
+  
+        <a id="contact-btn" href="../contact part/contact.html" onmouseover= "onmouseovercontactbtn()" onmouseout="onmouseexitcontactbtn()">Contact Us</a>
+  
+        <a id="about-btn" href="../about-us/about.html" onmouseover= "onmouseoveraboutbtn()" onmouseout="onmouseexitaboutbtn()">About Us</a>
+    </div>
+  
+    <div class = "side-nav-container" id = "sideNav">
+        <a href="javascript:void(0)" id="closebtn" onclick="closeNav()">&times;</a>
+        <img id = "side-bar-logo" src="../imagenes/logo-icon11.svg">
+        <a id = "homebtn-side" href="../index.html" onmouseover="onmousehoverhomebtn()" onmouseout= "onmouseexitbtn()">Home</a>
+        <a id = "web-btn-side" href="../web-part/web.html" onmouseover="onmousehoverservicesbtn()" onmouseout= "onmouseexitbtn()">Services</a>
+        <a id = "contact-btn-side" href="../contact part/contact.html" onmouseover="onmousehovercontactbtn()" onmouseout= "onmouseexitbtn()">Contact Us</a>
+        <a id = "about-btn-side" href="../about-us/about.html" onmouseover="onmousehoveraboutbtn()" onmouseout= "onmouseexitbtn()">About Us</a>
+  
+    </div>
+
+    <a class = "nav-btn-menu" href="#">
+        <img id = "menu-btn" src="imagenes/menu-ico.svg" onclick="openNav()">
+    </a>
+
+    <!--text parts -->
+     <div class="text-container">
+        <img id = "about-ico" src="imagenes/about-ico.svg" alt=""> 
+        
+        <p id="blueP"></p>
+        <h1 id="aboutH1">About Web World.<span id = "wordSpan">&#160</span></h1> 
+        
+          
+     </div>
+     <!--end text parts-->
+    <div id = "txt">
+        <div class="about-us-text">
+            <p>
+                We are the solution for your business. Every design that you have in mind
+                for your company web site we get the idea and turn it into reality. Letting your company
+                be known to the world and taking the first steps to success.
+            </p>    
+        </div>
+        <div class="about-us-text1">
+            <p>
+                The moment you contact us, we begin to design your page to your liking. If you have 
+                an idea of what your page will be like (it can be the colors, the style of the font, 
+                the background, or some design previously made by you), we use that idea and begin to 
+                make it come true. In case you do not have any design / idea, in our service section we 
+                have samples of web pages made by us, which can give you an idea of what you want.
+            </p>
+        </div>
+        </div>
+        <div class="about-us-text2">
+            <p>
+                Prices vary according to the size of your page, the hours of work it takes us to make your 
+                page, whether or not it has the previous design, everything varies according to the services. 
+                We provide the domain but not the server, in case you want it together with a server, that is 
+                a separate cost that does not go into the package. But since our main objective is to please 
+                our client, we stick to the budget (everything can be resolved with a good negotiation).
+            </p>
+        </div>
+    </div>
+    <script src="../main.js"></script>
+</body>
+</html>

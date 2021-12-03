@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web</title>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styleweb.css"/><!--Part of css-->
+
+</head>
+    
+    <!--Navegation-->
+
+    <div class="warper">
+        <div class="logo">
+            <a class="nav-btn-logo" href="../index.html">
+                <img class="logo-btn" src="imagenes/logo-ico3.png" alt="">
+                
+            </a>
+        </div>
+    </div>
+    <div id ="button-box"></div>
+  
+    <div class="nav-container">
+            
+        <a id = "homebtn" href="../index.html" onmouseover= "onmouseoverhomebtn()" onmouseout="onmouseexithomebtn()">Home</a>
+  
+        <a id = "web-btn" href="../web-part/web.html" onmouseover= "onmouseoverservicetbtn()" onmouseout="onmouseexitwebbtn()">Services</a>
+  
+        <a id="contact-btn" href="../contact part/contact.html" onmouseover= "onmouseovercontactbtn()" onmouseout="onmouseexitcontactbtn()">Contact Us</a>
+  
+        <a id="about-btn" href="../about-us/about.html" onmouseover= "onmouseoveraboutbtn()" onmouseout="onmouseexitaboutbtn()">About Us</a>
+    </div>
+  
+    <div class = "side-nav-container" id = "sideNav">
+        <a href="javascript:void(0)" id="closebtn" onclick="closeNav()">&times;</a>
+        <img id = "side-bar-logo" src="../imagenes/logo-icon11.svg">
+        <a id = "homebtn-side" href="../index.html" onmouseover="onmousehoverhomebtn()" onmouseout= "onmouseexitbtn()">Home</a>
+        <a id = "web-btn-side" href="../web-part/web.html" onmouseover="onmousehoverservicesbtn()" onmouseout= "onmouseexitbtn()">Services</a>
+        <a id = "contact-btn-side" href="../contact part/contact.html" onmouseover="onmousehovercontactbtn()" onmouseout= "onmouseexitbtn()">Contact Us</a>
+        <a id = "about-btn-side" href="../about-us/about.html" onmouseover="onmousehoveraboutbtn()" onmouseout= "onmouseexitbtn()">About Us</a>
+  
+    </div>
+
+    <a class = "nav-btn-menu" href="#">
+        <img id = "menu-btn" src="imagenes/menu-ico.svg" onclick="openNav()">
+    </a>
+
+<!--NAVEGATION END-->
+
+    <div class="header-container"><!--text and examples  container-->
+        <div class="wraper">
+            <header>
+
+
+
+                <div class="text-container"> <!--text container-->
+                    <h1>Here you have some samples of how your web will be</h1>
+                    <p1 id = "purp-box"></p1>
+                    <p id = "highlightedP">This design can be changed to your liking.</p>
+                    
+                </div>
+
+                <div class="samples-container">
+                    <a class="sample1-btn" href="imagenes/show-sample-1.png">
+                        <img class="sample1" src="imagenes/sample-1.png" alt="" />
+                        <h1 id="fly">Fly page sample</h1>
+                        <p id="price-1">$100</p>  
+                    </a>
+                    
+                    
+                    <a class="sample2-btn" href="imagenes/show-sample-2.png"> 
+                        
+                        <img class="sample2" src="imagenes/sample-2.png" alt="" />
+                        <h1 id="fly">Food page sample</h1>
+                        <p id="price-2">$150</p>
+                    </a>
+
+                    
+                    <a class="sample3-btn" href="imagenes/show-sample-3.jpg">
+                        <img class="sample3" src="imagenes/sample-3.png" alt="" />
+                        <h1 id="fly">Bank page sample</h1>
+                        <p id="price-1">$200</p>
+                    </a>
+                </div> 
+            </header>
+            <!--HEADER END-->
+
+        </div>
+    </div>
+    <script src="../main.js"></script>
+</body>
+</html>

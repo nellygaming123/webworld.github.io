@@ -1,0 +1,492 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+body {
+    background-image: url(./imagenes/background.jpg);
+    background-size: 100% 1200%;
+    animation: 1s ease-out 0s 1 slideInFromBottom;
+
+}
+
+
+.nav-container{
+    background: rgba(255, 255, 255, 0.14);
+    box-shadow: 0px 12px 4px rgba(0, 0, 0, 0.25);
+    height: 80px;
+}
+.logo-btn{
+    position: absolute;
+    left: 0;
+    top: 8px;
+}
+
+#highlightedP{
+    left: 880px;
+    width: 550px;
+}
+
+#purp-box{
+    left: 870px;
+    width: 600px;
+}
+
+#homebtn {
+    position: absolute;
+    left: 60vw;
+    top: 40px;
+    overflow-y: hidden;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 80%;
+    /* or 14px */
+
+
+    /* #EEEEEE */
+
+    color: #000000;
+}
+
+#homebtn-side{
+    display:none;
+}
+
+
+#web-btn{
+    position: absolute;
+    left: 80vw;
+    /*left: 69.3vw;*/
+    top: 40px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 80%;
+    /* or 14px */
+
+
+    /* #EEEEEE */
+
+    color: #000000;
+
+    
+}
+#web-btn-side{
+    display:none;
+}
+
+#button-box {
+    position: absolute;
+    display:none;
+    width: 130px;
+    height: 53px;
+    left: 80vw;
+    top: 25px;
+    
+    background: #94B3FD;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.35);
+    border-radius: 30px;
+}
+#about-btn{
+    position: absolute;
+    left: 69.3vw;
+    /*left: 90vw;*/
+    top: 40px;
+
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 80%;
+    /* or 14px */
+
+
+    color: #000000;  
+}
+
+#side-bar-logo{
+    display:none;
+}
+
+#side-bar-selector{
+    display: none;
+    position: absolute;
+    width: 90%;
+    height: 100px;
+    left: 18px;
+    border-radius: 5px;
+    background: white;
+}
+
+#contact-btn{
+    position: absolute;
+    left: 90vw;
+    top: 40px;
+
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 80%;
+    /* or 14px */
+
+
+    color: #000000;
+}
+
+#contact-btn-side {
+    display:none;
+}
+
+#closebtn {
+    display:none;
+}
+
+.nav-btn-menu{
+    overflow: hidden;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 94vw;
+    top: 5vh;
+    display: none;
+    cursor: default;
+
+}
+
+#search-btn {
+    overflow: hidden;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 97vw;
+    top: 6vh;
+}
+
+#about-btn-side{
+    display: none;
+}
+
+/* ================================= Services part ==================================================*/
+.text-container{
+
+    position: absolute;
+    width: 1377px;
+    height: 202px;
+    left: 63px;
+    top: 164px;
+
+    filter: drop-shadow(0px 10px 3px rgba(0, 0, 0, 0.25));
+}
+
+
+.text-container h1{
+    position: absolute;
+    height: 120px;
+    left: 10%;
+    right: 20%;
+    top: 11%;
+
+    font-family: arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 100%;
+    /* or 60px */
+
+
+    color: #000000;
+}
+
+.text-container p{
+    width: 37.8%;
+    position: absolute;
+    height: 60px;
+    left: 66.5%;
+    top: 10%;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 100%;
+    /* or 30px */
+
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#purp-box{
+    position: absolute;
+    font-size:1px;
+    width: 570px;
+    height: 61px;
+    left: 63%;
+    top: 3.5%;
+    border-radius: 30px 30px 30px 30px;;
+
+    background: #8E05C2;
+    filter: drop-shadow(0px 10px 3px rgba(0, 0, 0, 0.1));
+}
+
+.sample1-btn{
+    text-decoration: none;
+    position: absolute;
+    width: 1317px;
+    height: 468px;
+    left: 5%;
+    top: 38%;
+}
+
+.sample1-btn h1{
+    position: absolute;
+    width: 326px;
+    height: 46px;
+    left: 90px;
+    top: 10%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+.sample1-btn p{
+    position: absolute;
+    width: 356px;
+    height: 66px;
+    left: 150px;
+    top: 80%;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: #000000;
+}
+
+.sample2-btn{
+    position: absolute;
+    width: 433px;
+    height: 468px;
+    left: 36.6%;
+    top: 38%;
+
+
+}
+.sample2-btn h1{
+    position: absolute;
+    width: 326px;
+    height: 46px;
+    left: 70px;
+    top: 10%;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: #000000;
+}
+.sample2-btn p{
+    position: absolute;
+    width: 356px;
+    height: 66px;
+    left: 150px;
+    top: 80%;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: #000000;
+}
+
+.sample3-btn{
+    position: absolute;
+    width: 445px;
+    height: 468px;
+    left: 70%;
+    top: 50.2%;
+
+    background: url(.png);
+}
+.sample3-btn h1{
+    position: absolute;
+    width: 326px;
+    height: 46px;
+    left: 70px;
+    top: -12%;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: #000000;
+}
+.sample3-btn p{
+    position: absolute;
+    width: 356px;
+    height: 66px;
+    left: 150px;
+    top: 58%;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: #000000;
+}
+
+/*===================================================== END SERVICES part =======================================================*/ 
+
+@media (max-width: 1380px) {
+    #search-btn {
+        overflow: hidden;
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        left: 90vw;
+        top: 5vh;
+    }
+    .nav-container{
+        background: rgba(255, 255, 255, 0.14);
+        box-shadow: 0px 12px 4px rgba(0, 0, 0, 0.25);
+        height: 80px;
+    }
+    #homebtn {
+        display:none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        
+    }
+    #web-btn {
+        display:none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        
+    }
+    #contact-btn {
+        display:none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        
+    }
+
+    #about-btn{
+        display:none;
+        top: 0;
+        left: 0;
+    }
+    
+
+    .nav-btn-menu{
+        display: inherit;
+        padding-right: 5px;
+        cursor: pointer;
+    }
+
+    .side-nav-container {
+        height: 100%;
+        width: 0; 
+        position: fixed; 
+        z-index: 1; 
+        top: 0; 
+        right: 0;
+        background-color: rgb(1, 90, 255);
+        overflow-x: hidden; 
+        padding-top: 60px;
+        transition: 0.5s;
+    }
+    
+    .side-nav-container a {
+        padding: 50px 2px 15px 32px;
+        border-radius: 10px;
+        border-color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 25px;
+        color: #ffffff;
+        display: block;
+        transition: 0.3s;
+    }
+    
+    #homebtn-side{
+        height: 3px;
+        position: absolute;
+        left: 25%;
+    }
+
+    #about-btn-side{
+        height: 3px;
+        position: absolute;
+        top: 20%;
+        left: 19%;
+    }
+
+    #web-btn-side{
+        height: 3px;
+        position: absolute;
+        top: 32%;
+        left: 21%;
+
+    }
+
+    #contact-btn-side{
+        height: 3px;
+        position: absolute;
+        top: 44%;
+        left: 18%;
+    }
+
+    #side-bar-logo{
+        position: absolute;
+        top: 57%;
+        
+    }
+    .side-nav-container a:hover{
+        color: #000000;
+    }
+    
+    #closebtn {
+        position: absolute;
+        top: -30px;
+        right: 25px;
+        font-size: 36px;
+    }
+
+}
